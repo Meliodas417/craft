@@ -1,0 +1,21 @@
+[
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.android.browser:id/url",
+    "text": "https://www.google.com/webhp?client=ms-android-google&source=android-home",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "naf": "",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.android.browser",
+    "activity": ".BrowserActivity",
+    "event_type": "gui",
+    "score": 0.17178441071882844,
+    "action": [
+      "click"
+    ]
+  }
+]

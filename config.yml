@@ -1,0 +1,25 @@
+algorithm:
+  - custom
+  - atm
+  - craftdroid
+descriptor:
+  - union
+  - atm
+  - craftdroid
+training_dataset: android
+word_embedding: wm
+output:
+  results_dir: './results'
+  log_file: './logs/training.log'
+parameters:
+  learning_rate: 0.001
+  batch_size: 32
+  num_epochs: 50
+  embedding_dim: 300
+paths:
+  word_embedding_model: './GoogleNews-vectors-negative300.bin'
+  training_data: './data/train-dataset/'
+  w2v_sim_cache: './w2v_sim_cache.pkl'
+logging:
+  level: INFO
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
